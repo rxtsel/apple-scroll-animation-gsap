@@ -22,8 +22,6 @@
       color: white;
       overflow-x: hidden;
       height: 200vh;
-      display: flex;
-      flex-direction: column;
     }
 
     h1 {
@@ -33,9 +31,8 @@
       text-align: center;
       width: 100%;
       left: 50%;
-      --top: 50%;
-      top: var(--top);
-      transform: translate(-50%, calc(var(--top) * -1));
+      top: 50%;
+      transform: translate(-50%, -50%);
     }
 
 
@@ -44,6 +41,7 @@
       aspect-ratio: 734/412;
       width: 100%;
       left: 50%;
+
       --top: 28%;
       top: var(--top);
       transform: translate(-50%, calc(var(--top) * -1));
